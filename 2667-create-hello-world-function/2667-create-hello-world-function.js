@@ -2,10 +2,11 @@
  * @return {Function}
  */
 var createHelloWorld = function() {
-    let message = "Hello World"; 
-    return function(...args) {
-        return message;
+
+    return function(){
+        return "Hello World"
     }
+
 };
 
 /**
