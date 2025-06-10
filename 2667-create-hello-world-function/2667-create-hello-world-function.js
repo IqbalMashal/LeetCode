@@ -2,11 +2,11 @@
  * @return {Function}
  */
 var createHelloWorld = function() {
+    
+    return function(...args) {
+        return "Hello World";
 
-    return function(...argue){
-        return "Hello World"
     }
-
 };
 
 /**
